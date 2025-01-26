@@ -1,10 +1,10 @@
 import React from "react"
 import styles from "./highlightSection.module.css"
 
-const highlightSection =() => {
+const HighlightSection =() => {
     return (
-        <div className={styles.container}>highlightSection</div>
+        <div className={styles.container}>HighlightSection</div>
     )
 }
 
-export default highlightSection
+export default HighlightSection

@@ -1,10 +1,10 @@
 import React from "react"
-import styles from "headSection.module.css"
+import styles from "./headSection.module.css"
 
-const headSection =() => {
+const HeadSection =() => {
     return (
-        <div className={styles.container}>headSection</div>
+        <div className={styles.container}>HeadSection</div>
     )
 }
 
-export default headSection
+export default HeadSection

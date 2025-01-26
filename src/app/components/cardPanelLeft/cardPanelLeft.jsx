@@ -1,10 +1,10 @@
 import React from "react"
 import styles from "./cardPanelLeft.module.css"
 
-const cardPanelLeft =() => {
+const CardPanelLeft =() => {
     return (
-        <div className={styles.container}>cardPanelLeft</div>
+        <div className={styles.container}>CardPanelLeft</div>
     )
 }
 
-export default cardPanelLeft
+export default CardPanelLeft
