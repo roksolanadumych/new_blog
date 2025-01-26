@@ -1,13 +1,16 @@
-import Footer from "./components/footer/Footer";
-import Navbar from "./components/navbar/Navbar";
-import styles from "./homepage.module.css";
 import Link from "next/link";
+import styles from "./homepage.module.css";
+import CardLatest from "./Components/CardLatest/CardLatest"
+import CardPanelCentre from "./Components/CardPanelCentre/cardPanelCentre";
+
+
 
 export default function Home() {
   return (
-    <div> 
-      <Navbar/>
-      <Footer/>
-    </div>
+    <> 
+      <CardLatest/>
+      <CardPanelCentre/>
+
+    </>
   );
 }

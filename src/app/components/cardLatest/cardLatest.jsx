@@ -1,10 +1,10 @@
 import React from "react"
 import styles from "./cardLatest.module.css"
 
-const cardLatest =() => {
+const CardLatest =() => {
     return (
-        <div className={styles.container}>cardLatest</div>
+        <div className={styles.container}>CardLatest</div>
     )
 }
 
-export default cardLatest
+export default CardLatest
